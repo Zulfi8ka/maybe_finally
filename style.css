@@ -1,1 +1,15 @@
+/*global styles*/
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    width: 100%;
+    max-width: 1440px;
+    margin: 2rem auto;
+}
+
+section {
+    margin: 5rem 0;
+}
 
