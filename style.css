@@ -6,18 +6,14 @@ html {
     scroll-behavior: smooth;
 }
 
-@font-face {
-    font-family: Roboto;
-    src: url(fonts/Lora-Italic-VariableFont_wght.ttf);
-}
 
 .custom-font {
-    font-family: Roboto, Arial, sens-serif;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 body{
     font-size: 16px;
-    font-family: Roboto, sens-serif;
+    font-family: Roboto;
 }
 
 main {
