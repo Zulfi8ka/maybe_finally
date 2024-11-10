@@ -1,17 +1,26 @@
 /*global styles*/
 
 
-
 @import "nullstyle.scss";
 html {
     scroll-behavior: smooth;
 }
 
-.text {
-    font-size: 30px;
-    line-height: 35px;
-    font-family: "Roboto Slab", serif;
+@font-face {
+    font-family: Roboto;
+    src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
 }
+
+
+.custom-font {
+    font-family: Roboto, Arial, sens-serif;
+}
+
+body{
+    font-size: 16px;
+    font-family: Roboto, sens-serif;
+}
+
 main {
     width: 100%;
     max-width: 1440px;
@@ -22,3 +31,12 @@ section {
     margin: 5rem 0;
 }
 
+@media screen and (max-width: 992px) {
+    section {
+        margin: 2rem auto;
+        width: 90%;
+    }
+}
+.btn:active {
+    scale: 90%;
+}
