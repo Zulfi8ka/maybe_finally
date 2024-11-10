@@ -110,3 +110,31 @@ nav >.items-wrapper >.navi_link .navlink {
     color: var(--color-navlink);
     transition: .25s;
 }
+
+#navToggle {
+    display: none;
+}
+
+nav > .items-wrapper.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    #navToggle {
+        display: inline;
+        font-size: xx-large;
+        
+    }
+
+    nav > .items-wrapper {
+        position: fixed;
+        top: 10.75rem;
+
+        background-color: #ffffff;
+        color: #3b3b3b;
+
+        padding: 2rem;
+        transition: 250ms;
+        flex-direction: column;
+    }
+}
