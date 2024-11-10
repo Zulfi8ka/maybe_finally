@@ -8,9 +8,8 @@ html {
 
 @font-face {
     font-family: Roboto;
-    src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+    src: url(fonts/Lora-Italic-VariableFont_wght.ttf);
 }
-
 
 .custom-font {
     font-family: Roboto, Arial, sens-serif;
@@ -37,6 +36,7 @@ section {
         width: 90%;
     }
 }
+
 .btn:active {
     scale: 90%;
 }
