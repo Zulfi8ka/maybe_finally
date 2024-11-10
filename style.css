@@ -42,6 +42,21 @@ section {
     --color-navlink: #ccc;
     --color-navlink-hover: #efefef;
 }
+
+.btn {
+    transition: all 125ms;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--color-text);
+    color: var(--color-bg);
+    width: max-content;
+    padding: 0.5rem;
+    border: 0.25rem solid var(--color-text);
+    cursor: pointer;
+}
+
+
 .conteiner {
     display: inline-block;
     width: 500px;
@@ -58,22 +73,22 @@ section {
 /*Navigation*/
 nav {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     gap: 1rem;
-
-    background-color: var(#a80da6);
-    color: var(--color-text);
-
     padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    color: var(--color-bg);
+    background-color: #929292;
+    box-shadow: 0 0 0.5rem black;
 }
 
 nav > .brand {
     display: flex;
     align-items: center;
     gap: 1rem;
-
     color: var(--color-bg);
     font-size: xx-large;
     font-weight: bold;
@@ -85,7 +100,7 @@ nav >.items-wrapper {
     gap: 1rem;
 }
 
-nav >.items-wrapper >.navi_link {
+nav >.items-wrapper >.navi_link .navlink {
     display: flex;
     align-items: center;
     gap:1rem;
@@ -93,4 +108,5 @@ nav >.items-wrapper >.navi_link {
 
 nav >.items-wrapper >.navi_link .navlink {
     color: var(--color-navlink);
+    transition: .25s;
 }
