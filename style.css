@@ -36,7 +36,7 @@ section {
     scale: 90%;
 }
 
-.tell_email {
+.foot_info {
     background-color:rgb(255, 128, 0);
     width: 300px;
     height: 150px;
@@ -46,14 +46,11 @@ section {
     font-weight: 300;  
 }
 
-.resourse {
-    background-color:rgb(255, 128, 0);
-    width: 300px;
-    height: 150px;
-    text-align: left;
-    color: #331a00;
-    font-size: 18px; 
-    font-weight: 500;
+.foot_link {
+    background-color:rgb(255, 255, 255);
+    width: 70px;
+    height: 50px;
+    text-align: center;
 }
 
 a {
