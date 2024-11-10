@@ -1,8 +1,17 @@
 /*global styles*/
+
+
+
+@import "nullstyle.scss";
 html {
     scroll-behavior: smooth;
 }
 
+.text {
+    font-size: 30px;
+    line-height: 35px;
+    font-family: "Roboto Slab", serif;
+}
 main {
     width: 100%;
     max-width: 1440px;
