@@ -52,6 +52,13 @@ a {
     color: #000000;
     border-bottom: 1px solid;
     border-bottom-color: rgb(0, 0, 0);
+=======
+
+
+.conteiner {
+    display: inline-block;
+    width: 500px;
+    background-color: bisque;
 }
 
 .telega {
@@ -91,6 +98,29 @@ form {
 option {
     background-color: #000000;
     color: #ffffff;
+
+/*Navigation*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    color: var(--color-bg);
+    background-color: #929292;
+    box-shadow: 0 0 0.5rem black;
+}
+
+nav > .brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--color-bg);
+    font-size: xx-large;
+    font-weight: bold;
 }
 
 .comms {
@@ -159,4 +189,43 @@ h1.comms {
     display: flex;
     width:500px;
     height:auto;
+}
+  
+nav >.items-wrapper >.navi_link .navlink {
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+
+nav >.items-wrapper >.navi_link .navlink {
+    color: var(--color-navlink);
+    transition: .25s;
+}
+
+#navToggle {
+    display: none;
+}
+
+nav > .items-wrapper.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    #navToggle {
+        display: inline;
+        font-size: xx-large;
+        
+    }
+
+    nav > .items-wrapper {
+        position: fixed;
+        top: 10.75rem;
+
+        background-color: #ffffff;
+        color: #3b3b3b;
+
+        padding: 2rem;
+        transition: 250ms;
+        flex-direction: column;
+    }
 }
