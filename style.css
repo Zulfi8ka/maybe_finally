@@ -36,25 +36,23 @@ section {
     scale: 90%;
 }
 
-:root {
-    --color-text: #0f0f0f;
-    --color-bg: #efefef;
-    --color-navlink: #ccc;
-    --color-navlink-hover: #efefef;
+.foot_info {
+    background-color:rgb(255, 128, 0);
+    width: 300px;
+    height: 180px;
+    text-align: left;
+    color: #331a00;
+    font-size: 18px; 
+    font-weight: 300; 
+    display: inline-table; 
 }
 
-.btn {
-    transition: all 125ms;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    background-color: var(--color-text);
-    color: var(--color-bg);
-    width: max-content;
-    padding: 0.5rem;
-    border: 0.25rem solid var(--color-text);
-    cursor: pointer;
-}
+a {
+    text-decoration: none;
+    color: #000000;
+    border-bottom: 1px solid;
+    border-bottom-color: rgb(0, 0, 0);
+=======
 
 
 .conteiner {
@@ -63,13 +61,44 @@ section {
     background-color: bisque;
 }
 
-.conteinerNav {
-    display: inline-block;
-    text-align: center;
+.telega {
+    margin: 10px;
 }
-.conteinerNav>img {
-    width: 60px;
+.facebook {
+    margin: 10px;
 }
+input {
+    border: 2px solid black;
+    height: 23px  
+}
+.enter_email {
+    background-color:rgb(0, 0, 0);  
+    color: #ffffff;
+    font-size: 18px;
+    border: 2px solid black;
+}
+
+form {
+    background-color:rgb(255, 128, 0);
+    border: 1px solid black;
+}
+
+#bot {
+    background-color:rgb(0, 0, 0);  
+    color: #ffffff;
+    width: 100px
+}
+
+.get_course {
+    color: #000000;
+    font-size: 18px; 
+    font-weight: 400;
+}
+
+option {
+    background-color: #000000;
+    color: #ffffff;
+
 /*Navigation*/
 nav {
     display: flex;
@@ -94,12 +123,74 @@ nav > .brand {
     font-weight: bold;
 }
 
-nav >.items-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+.comms {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 600px;
+    height:300px;
+    border: 5px solid black;
 }
 
+.puppy {
+    background-color: rgb(255, 128, 0);
+    color: rgb(0, 0, 0);
+    width: 550px;
+    height:50px;
+    border: 2px solid black;
+    margin: 20px
+}
+
+h1.comms {
+    text-align: center;
+}
+
+.mean {
+
+}
+
+.id_course {
+    background-color: rgb(255, 128, 0);
+    color: rgb(255, 255, 255);
+    width:500px;
+    height:100px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.id_list {
+    background-color: rgb(255, 128, 0);
+    color: rgb(0, 0, 0);
+    width:300px;
+    height: auto;
+    font-weight: 400;
+    display: inline-flexbox; 
+    border: 1px solid black;
+}
+
+.begin {
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.advant {
+    background-color: rgb(255, 128, 0);
+    color: rgb(0, 0, 0);
+    line-height: 2em;
+    width:300px;
+    height:auto;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.image_pos {
+    border: 5px solid rgb(239, 129, 19);
+    display: flex;
+    width:500px;
+    height:auto;
+}
+  
 nav >.items-wrapper >.navi_link .navlink {
     display: flex;
     align-items: center;
